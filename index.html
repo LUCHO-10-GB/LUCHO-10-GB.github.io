@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 350px;">
+        <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Torta belaeta</td>
+                <td style="color:darkred">Valor: $8.000</td>
+            </tr>
+            <tr>
+                <td>Torta de chocolate</td>
+                <td style="color:darkred">Valor: $16.000</td>
+            </tr>
+            <tr>
+                    <td>Postre saludable</td>
+                    <td style="color:darkred">Valor: $12.000</td>
+                </tr>
+        </tbody>
+        <tfoot>
+            <td>Total</td>
+            <td>Costo= $36.000</td>
+        </tfoot>
+    </table>
+    <!-- ul es lista no ordenada-->
+    <ul>
+        <li> Elemento 1</li>
+        <li> Elemento 2</li>
+        <li> Elemento 3</li>
+        <li> Elemento 4</li>
+    </ul>
+    <!-- ol es lista ordenada-->
+    <ol>
+        <li value="50"> Elemento 1</li>
+        <li> Elemento 2</li>
+        <li> Elemento 3</li>
+        <li> Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type:lower-roman;">sub Elemento 1</li>
+                <li style="list-style-type:lower-roman;">sub Elemento 2</li>
+                <li style="list-style-type:lower-roman;">sub Elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+    <form action="Formulario" method="post">
+        <label for="Nombre">Nombre</label>
+        <input value="chanchito" type="text" id="Nombre" name="nombre" placeholder="nombre"/>
+        <br>
+        <label for="Apellido">Apellido</label>
+        <input value="feliz" type="text" id="Apellido" name="Apellido" placeholder="Apellido"/>
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea cols="40" rows="10" id="Comentario" placeholder="Ingrese comentario" name="comentario">Este es un valor por defecto</textarea>
+        <br>
+        <button type="button">Tipo botón</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+    </form> 
+    <h1>Mi Primer Heading</h1>
+    <h2>Mi segundo Heading</h2>
+    <h3>Mi tercer Heading</h3>
+    <h4>Mi cuarto Heading</h4>
+    <h5>Mi quinto Heading</h5>
+    <h6>Mi sexto Heading</h6>
+    <p>Chanchito esta feliz muy feliz.</p>
+    <p>Chanchito triste esta muy triste.</p>
+    <hr>
+    <h2>chanchito pipe</h2>
+    <p>
+        Chanchito contento, <span style="color:blue">por alguna otra razon</span> la 
+        cual<br><br>
+         nosotros no sabemos.
+    </p>
+    <!--este texto es un comentario y no va a aparecer en el
+    explorador-->
+        <a target="_blank" href="https://www.google.com">Ir a google</a>
+        <img src="img/png.webp" height="300" width="300"/>
+           
+</body>
+</html>
